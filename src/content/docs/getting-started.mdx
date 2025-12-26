@@ -1,0 +1,54 @@
+---
+title: Getting Started
+description: Learn how to set up and use this documentation site
+---
+
+# Getting Started
+
+This guide will help you get started with this documentation site.
+
+## Installation
+
+The project is already set up with:
+
+```bash
+pnpm install
+```
+
+## Development
+
+Start the development server:
+
+```bash
+pnpm dev
+```
+
+## Building
+
+Build the site for production:
+
+```bash
+pnpm build
+```
+
+## Adding Content
+
+Documentation files are located in `src/content/docs/`. You can add new pages by creating new `.md` or `.mdx` files.
+
+### Frontmatter
+
+Each documentation file should have frontmatter with at least a title:
+
+```yaml
+---
+title: Your Page Title
+description: A brief description of the page
+---
+```
+
+## Customization
+
+You can customize the site by editing:
+- `astro.config.mjs` - Main configuration
+- `src/content/docs/` - Documentation content
+- `src/styles/global.css` - Global styles

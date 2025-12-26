@@ -1,0 +1,3 @@
+// Shared type definitions for the project
+
+export type {};
